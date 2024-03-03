@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Videojuegos/form</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+</head>
+<body class="form">
+        <!-- Cabecera con el titulo y el menu -->
+        <header>
+            <nav>
+            <h1>Form</h1>
+                <ul>
+                <li><a href="index.html"> INICIO</a></li>
+                <li><a href="galeria.html"> GALERIA</a></li>
+                <li><a href="game.html"> GAME</a></li>
+                <li><a href="#"> FORM</a></li>
+                </ul>
+            </nav>
+        </header>
+    <br></br>
+    <section class="form-content">
+        <form id="miFormulario">
+            <input class="controls" type="text" id="Usuario" placeholder="Ingrese su nombre" required>
+            <br><br>
+            <input class="controls" type="email" id="Correo" placeholder="Ingrese su correo" required>
+            <br><br>
+            <input class="controls" type="tel" id="Telefono" placeholder="Ingrese su telefono" required>
+            <br><br>
+            <input class="controls" type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+            <br><br>
+            <input class="controls" type="number" id="Edad" placeholder="Ingrese su edad" required>
+            <br><br>
+            <input class="controls" type="text" id="Comentarios" placeholder="Comentarios para futuras optimizaciones" required>
+            <br><br>
+            <button class="boton" type="button" onclick="validarFormulario()">Enviar</button>
+        </form>
+        <p><a href="index.html">Ya tengo cuenta</a></p>
+    </section>
+    
+    <script src="script.js" ></script>
+    
+
+</body>
+</html>
